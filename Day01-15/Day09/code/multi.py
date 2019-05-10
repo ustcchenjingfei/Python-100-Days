@@ -61,6 +61,7 @@ class Son(Father, Monk, Musician):
 son = Son('王大锤')
 son.gamble()
 # 调用继承自Father的eat方法
+# 由继承类的顺序决定的。
 son.eat()
 son.chant()
 son.play_piano()
